@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin-top: 50px !important;
+}
+
+.content-div {
+    width: 40% !important;
+}
+
+body.dark {
+    background-color: black !important;
+}
+
+.navbar-brand.white {
+    color: white !important;
+}
+
+.fa-toggle-on {
+    color: deeppink;
+}
+
+.btn {
+    margin: 0px 8px !important;
+    border: none !important;
+}
+
+h5 {
+    font-size: 40px !important;
+    margin-bottom: 40px !important;
+}
+
+body.dark nav {
+    background-color: black !important;
+}
+
+body.dark .nav-link {
+    color: rgb(207, 207, 207) !important;
+}
+
+.pink {
+    color: deeppink !important;
+    font-weight: bold;
+}
+
+body.dark p , body.dark h5, body.dark .card-link, body.dark .navbar-brand {
+    color: white !important;
+}
+
+body.dark .btn {
+    background-color: deeppink;
+}
+
+.active {
+    color:blue !important;
+    font-weight: bold;
+}
+
+i {
+    font-size: 40px !important;
+    color: darkgrey;
+}

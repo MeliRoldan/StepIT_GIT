@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <div class="header">
+            <h3>EVENT REGISTRATION FORM</h3>
+        </div>
+        <div class="form">
+            <form action="">
+                <div class="row-name">
+                    <div class="column-label">
+                        <label for="fname lname">Name</label>
+                    </div>
+                    <div class="column-input1">
+                        <input class="leftinput" type="text" name="fname" id="fname">
+                        <p>First Name<p>
+                    </div>
+                    <div class="column-input2">
+                        <input class="rightinput" type="text" name="lname" id="lname">
+                        <p>Last Name</p>
+                    </div>
+                </div>
+                <div class="row-company">
+                    <div class="column-label">
+                        <label for="company">Company</label>
+                    </div>
+                    <div class="column-input">
+                        <input type="text" name="company" id="company">
+                    </div>
+                </div>
+                <div class="row-email">
+                    <div class="column-label">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="column-input">
+                        <input type="email" name="email" id="email" placeholder="example@emailcom">
+                    </div>
+                </div>
+                <div class="row-phone">
+                    <div class="column-label">
+                        <label for="area phone">Phone</label>
+                    </div>
+                    <div class="column-area">
+                        <input type="text" name="area" id="area">
+                        <p>Area</p>
+                    </div>
+                    <div class="column-phone">
+                        <input type="text" name="phone" id="phone">
+                        <p>Phone</p>
+                    </div>
+                </div>
+                <div class="row-subject">
+                    <div class="column-label">
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="column-input">
+                        <select name="subject" id="subject">
+                            <option value="" selected disabled>Choose Option</option>
+                            <option value="HTML">HTML</option>
+                            <option value="CSS">CSS</option>
+                            <option value="Javascript">Javascript</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row-radio">
+                    <div class="column-radio">
+                        <label for="radio">Are you an exsiting customer?</label>
+                    </div>
+                    <div class="column-radio">
+                        <input type="radio" name="cstmr" id="cstmryes" value="Yes">
+                        <label class="left-radio" id="radio" for="cstmryes">Yes</label>
+                        <input type="radio" name="cstmr" id="cstmrno" value="No">
+                        <label id="radio" for="cstmrno">No</label>
+                    </div>
+                <div class="row-submit">
+                    <div class="column-submit">
+                        <button id="submit-button">REGISTER</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div> 
+</body>
+</html>

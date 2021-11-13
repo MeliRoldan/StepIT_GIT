@@ -1,0 +1,83 @@
+body {background: rgb(59,144,236);
+    background: linear-gradient(82deg, rgba(59,144,236,1) 0%, rgba(46,200,230,1) 42%, rgba(150,53,182,1) 82%);
+    margin: 0px; padding: 0px;}
+    
+    * {margin: 0px;padding: 0px;}
+    * {box-sizing: border-box;}
+
+    div {width: 45%; margin:30px auto;
+        border-radius: 5px; 
+        background-color: white; 
+        font-family: 'Roboto', sans-serif;}
+
+        @media (max-width: 900px) {div {width:80%;} 
+    }
+
+    .header {width: 100%; margin: 0px; padding: 10px 0px;
+        text-align: center; background-color: black; color: white;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .form {width: 100%; margin: 0px; padding: 10px 70px;
+        background-color: white;}
+        
+        form>div { display: flex; width: 100%;
+            margin: 0px 0px; padding: 14px;
+            }
+            
+            .column-label {width: 25%;  margin: 0px; padding: 10px;
+                font-weight: bold; font-size: 14px;
+            }
+
+            .column-input {width: 75%;margin: 0px;}
+
+            .column-input1 {width: 34%; 
+                margin-left:0px; margin-top: 0px;
+                margin-bottom: 0px; margin-right: 20px;
+            }
+            .column-input2 {width: 34%; 
+                margin-left: 20px; margin-top: 0px;
+                margin-bottom: 0px;margin-right: 0px;
+            }
+
+            .row-radio {flex-direction:column;}
+
+            .column-radio {width:100%; margin: 10px 0px;}
+
+            #company, #email, #subject, #fname, #lname, #area, #phone {width: 100%;
+                padding: 8px 8px; border: none; border-radius: 5px;
+                background-color: rgba(160, 156, 156, 0.205);
+            }
+
+            .column-area {width: 15%; 
+                margin-left:0px; margin-top: 0px;
+                margin-bottom: 0px; margin-right: 20px;
+            }
+            .column-phone {width:53%;; 
+                margin-left: 20px; margin-top: 0px;
+                margin-bottom: 0px;margin-right: 0px;
+            }
+
+            p {font-size: small; margin-top: 5px;color: grey;}
+
+            .column-radio {padding: 0px 10px;}
+            label[for="radio"]{font-size: 14px;font-weight: bold;}
+            label[id="radio"]{font-size: 14px; margin-left: 2px; margin-right: 60px;}
+
+            .row-submit {flex-direction:column; margin: 15px 0px;}
+            .column-submit {width:100%;margin: 0px; padding: 0px 8px;}
+
+            #submit-button {padding: 10px 30px;
+                border:none; border-radius: 5px;
+                background-color:rgb(235, 73, 87); color:white; 
+                font-size:12px;font-weight: bold; cursor:pointer;}
+                
+                #submit-button:hover {background-color:rgba(150,53,182,1);
+                    color: white; transition-duration: 0.5s;
+                }
+
+                @media (max-width: 600px)
+                {div,.column-input, .column-label, .column-input1, .column-input2,
+                     .column-area, .column-phone
+                    {flex-direction: column; width: 100%; margin: 0px; padding: 0px;}}

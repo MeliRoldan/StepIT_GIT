@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url(https://markup.themewagon.com/trybaikal/assets/images/header-01.jpg);
+  background-size: cover;
+  padding: 200px 0px;
+  text-align: center;
+}
+
+.fa-chevron-down {
+  font-size: small;
+}
+
+.container-fluid {
+  width: 90%;
+  margin: auto;
+}
+
+nav li {
+  margin: 0px 15px;
+}
+
+.dropdown-menu {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.514);
+}
+
+.dropdown-item {
+  color: white;
+  background-color: transparent;
+}
+
+.small {
+  padding: 5px 18px;
+}
+
+.large {
+  font-size: small;
+  background-color: #36b3a8;
+  padding: 13px 53px;
+  letter-spacing: 1px;
+  margin: 43px 0px;
+}
+
+.large:hover {
+  background-color: #2b948b;
+}
+
+.fa-angle-double-down {
+  padding-top: 100px;
+}
+
+@media (max-width:991px) {
+  nav li {
+    margin: 0px;
+  }
+
+  nav {
+    background-color: black;
+  }
+}

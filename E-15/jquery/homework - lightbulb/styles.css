@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    position: relative;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    height: 400px;
+    background-image: url(Capture2.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main.on {
+    background-image: url(Capture.JPG);
+}
+
+.slide {
+    width: 1px;
+    top: 0;
+    right: 20%;
+    height: 110px;
+}
+
+.on-off {
+    top: 110px;
+    right: 19.222%;
+    padding: 10px;
+}

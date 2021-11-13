@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body class="m-0">
+    <!--ჰოდერის დივი-->
+    <div class="main w-100 text-center">
+        <img src="Capture.JPG" alt="logo">
+        <p class="m-0 fw-normal">vue-form-wizard</p>
+        <p class="m-0 fw-normal">A dynamic form wizard to split your forms easier.</p>
+        <p class="m-0 fw-normal mb-3 fst-italic">via Vue.js Feed</p>
+        <p class="mb-0 fw-normal">Awesome Wizard</p>
+        <p class="m-0 mb-4 fw-light">Split a complicated flow in multiple steps</p>
+    </div>
+
+    <!--საფეხურების დივი-->
+    <div class="container w-100">
+        <div class="row d-flex justify-content-between">
+            <div class="col col-md-4 text-center position-relative line a-line">
+                <h2 class="active-h fst-italic rounded-circle d-inline fw-normal">1</h2>
+                <p class="active-p circle-p mt-3">First Stage</p>
+            </div>
+            <div class="col col-md-4 text-center position-relative">
+                <h2 class="fst-italic rounded-circle d-inline fw-normal">2</h2>
+                <p class="circle-p mt-3">Search additional info</p>
+            </div>
+            <div class="col col-md-4 text-center position-relative">
+                <h2 class="fst-italic rounded-circle d-inline fw-normal">3</h2>
+                <p class="circle-p mt-3">Last Step</p>
+            </div>
+        </div>
+    </div>
+
+    <!--კონტენტის დივი-->
+    <div class="container w-100">
+        <div class="content d-flex justify-content-center align-items-center">
+            <button type="button" class="active-content btn-show btn btn-primary">Show info</button>
+            <input class="form-control form-control-lg rounded-pill" type="text" placeholder="Seacrh GitHub users" aria-label=".form-control-lg example">
+            <p class="step-p fw-bold">You got what you wanted?</p>
+        </div>
+
+        <!--ღილაკების დივი-->
+        <div class="btn-div d-flex justify-content-between">
+            <button type="button" class="back hide btn pe-5 ps-5 text-white">Back</button>
+            <button type="button" class="next btn pe-5 ps-5 text-white">Next</button>
+        </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

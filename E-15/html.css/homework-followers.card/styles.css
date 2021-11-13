@@ -1,0 +1,51 @@
+body {margin: 0px; padding: 40px 0px;
+background-color: #d6d1ce;
+font-family: 'Roboto', sans-serif;}
+
+*{box-sizing: border-box;}
+
+.card {width: 25%; margin: auto;
+    border-radius: 10px; 
+    overflow: hidden;
+    box-shadow: 3px 3px 8px gray;}
+    
+    .profile {position: relative;
+        height:420px; background-image: url(cat.jpg); 
+        background-size: cover;}
+
+     .overlay { height: 100%; background-color:rgba(56, 7, 90, 0.527) }
+
+        i {font-size: 30px; color: white; position: absolute;}
+        .fa-heart {top: 25px; right: 25px;}
+        .fa-bars {top: 25px; left: 25px;
+    }
+    
+    .name {width: 100%; position: absolute; bottom: 50px; 
+        color: white; text-align: center;}
+        
+        h3,h4 {margin: 0px;}
+        h4 {font-weight: normal;
+    }
+    
+    .plus {width: 100%; position: relative;
+        display: flex; justify-content: center;}
+        
+        .fa-plus {position: absolute; bottom: -30px;
+            border-radius: 50%; padding: 14px 18px;
+            background-color: #f11761;
+    }
+
+    .info {display: flex; justify-content: space-around;
+        padding-top: 80px;
+        background-color: white;
+        color: rgb(107, 107, 107);}
+        
+    .count {display: flex; justify-content: space-around; 
+        padding-bottom: 40px;
+        font-weight: bold;
+        background-color: white;
+    }
+            
+    p {width: 100%; margin: 2px 0px;
+    text-align: center;
+}

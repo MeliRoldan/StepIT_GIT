@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+button, input {
+    border-radius: 0px !important;
+}
+
+input:focus {
+   box-shadow: none !important;
+}
+
+input {
+    color: #48DBFB !important;
+}
+
+button:focus {
+    box-shadow: none !important;
+}
+
+button {
+    background-color: #48DBFB !important;
+}
+
+.main-d {
+    border: #48DBFB 1px solid !important;
+}
+
+.fa-eye {
+    color: #48DBFB !important;
+}
+

@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    padding: 5px 20px 8px;
+    color: rgb(163, 163, 163);
+    border: 5px solid #e74c3c;
+}
+
+.circle-p {
+    color: rgb(190, 190, 190);
+}
+
+.content {
+    height: 130px;
+}
+
+/*აქტიური ტესტის სტილები*/
+.active-h {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.active-p {
+    color: #e74c3c;
+}
+
+/*აქტიური ხაზების სტილები*/
+.line::before {
+    content: "";
+    width: 255px;
+    border: 2px solid #e74c3c;
+    position: absolute;
+    left: -95px;
+    top: 18px;
+}
+
+.a-line::after {
+    content: "";
+    width: 0px;
+    border: 2px solid #e74c3c;
+    position: absolute;
+    left: -161px;
+    top: 18px;
+}
+
+.a-line.show::after {
+    width: 317px;
+    transition: 0.3s;
+}
+
+/* კონტენტი და აქტიური კონტენტის სტილები */
+input {
+    display: none !important;
+}
+
+.step-p {
+    display: none;
+}
+
+.btn-show {
+    display: none !important;
+}
+
+.active-content {
+    display: block !important;
+}
+
+/* ღილაკების სტილები */
+.back , .next {
+    background-color: #e74c3c !important;
+}
+
+.hide {
+    visibility: hidden;
+}

@@ -1,0 +1,89 @@
+body {
+    margin: 0 !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*SELECT CONTAINER*/
+.select-div {
+    background-color: #E9E9EB;
+    height: 300px;
+}
+
+.select-btn {
+    padding: 5px 8px;
+    text-align: start !important;
+}
+
+.select-btn:focus {
+    box-shadow: none !important;
+    border: 2px solid black !important;
+}
+
+.btn-span.selected-user {
+    font-weight: bold;
+    font-size: 13px !important;
+}
+
+.options {
+    box-shadow: 2px 2px 5px gray;
+    height: 200px;
+    overflow-y: scroll;
+    background-color: white !important;
+}
+
+.options div  {
+    font-size: 13px !important;
+    padding: 5px 10px;
+}
+
+.options div:hover {
+    background-color: black;
+    color: white;
+}
+
+.option-span {
+    font-weight: bold !important;
+}
+
+/*INPUT CONTAINER*/
+.input-div {
+    background-color: #F6FEFE;
+    height: 200px;
+}
+
+.tag-div{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #6aa8d4;
+    align-items: center;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.tag-div span {
+    background-color:#0051CC;
+    padding: 3px 8px;
+    border-radius: 8px;
+    color: white;
+    display: inline-flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin: 5px 0px 3px 3px;
+}
+
+input:focus {
+    box-shadow: none !important;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+/*TYPE CONTAINER*/
+.type-div {
+    background-color: black;
+    height: 200px;
+}

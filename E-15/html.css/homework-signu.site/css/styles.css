@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    height: 100vh;
+    padding: 95px 0px;
+    font-family: sans-serif;
+    background: linear-gradient(42deg, rgba(26, 197, 183, 0.644) 36%, rgba(14,174,113,0.5841211484593838) 59%), url(https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    padding: 20px 0px;
+    border-radius: 20px;
+    color: grey;
+}
+
+@media (max-width:1230px) and (min-width:990px) {
+    .container {
+        width: 60%;
+    }
+}
+
+@media (max-width:990px) and (min-width:600px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media (max-width:600px) {
+    .container {
+        width: 90%;
+    }
+}
+
+div , form {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.sign {
+    padding-bottom: 40px;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 500px) {
+    .sign {
+       flex-direction: column;
+    }
+}
+
+.sign a {
+    color: #06c695;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 13px 20px;
+    border-bottom: 3px solid transparent;
+}
+
+.sign a:hover { 
+    border-bottom: 3px solid #06c695;
+}
+
+.media i {
+    color: #06c695;
+    font-size: 20px;
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    padding: 7px 0px;
+    border: 1px solid rgba(128, 128, 128, 0.705);
+    margin: 0px 13px;
+}
+
+.media i:hover {
+    background-color: #06c695;
+    border: 1px solid #06c695;
+    color: white;
+    cursor: pointer;
+}
+
+form div {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+label, input {
+    padding: 15px 0px;
+}
+
+label {
+    width: 20%;
+}
+
+input {
+    width: 80%;
+    padding-left: 5px;
+    border: none;
+}
+ 
+input:focus {
+    outline: none;
+}
+
+label i {
+    color: #06c695;
+    font-size: 15px;
+    border: none;
+    margin-right: 0;
+    padding: 0;
+}
+
+form a {
+    display: block;
+    text-align: right;
+    padding: 10px 10px;
+    color: grey;
+    font-size: small;
+}
+
+button {
+    width: 50%;
+    margin: auto;
+    padding: 13px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #06c695;
+}
+
+button:hover {
+    background-color: #17b991;
+    cursor: pointer;
+}
+
+span a {
+    color:#06c695;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p:last-child {
+    font-size: small;
+}

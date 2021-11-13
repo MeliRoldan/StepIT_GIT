@@ -1,0 +1,26 @@
+body {margin: 0; padding: 28px;}
+* {box-sizing: border-box;}
+
+div {width:90%; height: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebebeb;
+}
+
+button {width: 25%; height: 30%;
+    border: 10px solid #4ac0ee;
+    box-shadow: -20px 20px #4ac0ee;
+    background-color: white;
+    color: #4ac0ee;
+    text-transform: uppercase; 
+    font-size: 25px; font-weight: bolder;
+    transition: 0.3s;
+}
+@media (max-width:600px){button{width: 70%;}}
+
+button:hover {box-shadow: none; 
+    color: white;
+    background-color: #4ac0ee;
+}

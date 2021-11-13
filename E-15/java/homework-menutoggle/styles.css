@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: relative;
+}
+
+.toggler {
+    background-color: transparent;
+    transform: translateX(0%);
+    transition: all 0.9s;
+    position: relative;
+}
+
+span {
+    display: block;
+    width: 50px;
+    height: 5px;
+    background-color: chocolate;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+.toggler.float span:nth-child(2) {
+    width: 0;
+}
+
+.toggler.float span:nth-child(1) {
+    transform: rotate(45deg);
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    transition: 1s;
+}
+
+.toggler.float span:nth-child(3) {
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    transition: 1s;
+}
+
+.toggler.float {
+    transform: translateX(-620px);
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.item {
+    padding: 15px 0px;
+    opacity: 0;
+}
+
+.menu--animate .item {
+    animation: drop 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes drop {
+    from {opacity: 0;}
+    to {opacity: 1; animation-timing-function: ease-out;}
+}
+
+.menu--animate .item:nth-child(2) {
+    animation-delay: 0.1s;
+}
+.menu--animate .item:nth-child(3) {
+    animation-delay: 0.2s;
+}
+.menu--animate .item:nth-child(4) {
+    animation-delay: 0.3s;
+}
+
+li a {
+    font-size: 35px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 0px;
+    position: relative;
+}
+
+li a:hover {
+    color: white;
+}
+
+a:hover::before {
+    content: "";
+    width: 0px;
+    padding: 1.5px 0px;
+    background-color: white;
+    transform: rotate(180deg) !important;
+    position: absolute;
+    bottom: -5px;
+    animation-name: underline;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes underline {
+    from {width: 0;}
+    to {width: 103px;}
+}
+
+.sidebar {
+    background-color: chocolate;
+    width: 45%;
+    position: absolute !important;
+    right: 0;
+    top: 0;
+    padding-top: 100px;
+    transform: translateX(100%);
+    transition: all .9s;
+}
+
+.sidebar.show {
+    transform: translateX(0);
+}
+
+header{
+    background-color: #212529;
+}

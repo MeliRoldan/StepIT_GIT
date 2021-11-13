@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    background-color: #3280f9 !important;
+    position: relative !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    height: 400px;
+    left: 50%;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+    background-color: rgb(56, 56, 56);
+}
+
+.fdiv {
+    padding-bottom: 100px;
+}
+
+.sign , .log {
+    padding: 5px 100px !important;
+}
+
+.sign {
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-right: 1px solid #3280f9;
+    border-bottom: 1px solid #3280f9;
+}
+
+.sign:hover {
+    border: 1px solid white !important;
+}
+
+.log {
+    border: 1px solid white;
+}
+
+.log:hover , .sign:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+.myform {
+    width: 43%;
+    height: 400px !important;
+    left: 40px;
+    top: -30px;
+    padding: 50px 25px;
+}
+
+input {
+    width: 100% !important;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid rgb(121, 121, 121);
+    margin-bottom: 20px !important;
+    padding: 5px 10px;
+}
+
+input:focus {
+    outline: none !important;
+    border-bottom: 1px solid #3280f9;
+}
+
+button[type=submit]{
+    margin-top: 20px;
+    padding: 8px 0px;
+}
+
+.blue::placeholder {
+    color: #3280f9;
+}
+
+
+.right.myform {
+    padding-top: 158px;
+    left: 360px;
+}

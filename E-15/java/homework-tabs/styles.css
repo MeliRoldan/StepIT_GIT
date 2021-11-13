@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    background-image: url(https://sfss.ca/wp-content/uploads/2019/09/background-159244_1280-1.png);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main-div {
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tab-content , .tab-header {
+    background-color: white;
+    margin: 0 !important;
+}
+
+.tab-header {
+    width: fit-content;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0 !important;
+}
+
+li {
+    padding: 10px 30px;
+}
+
+.tabitem.active {
+    color: blue;
+    border-bottom: 4px solid blue;
+}
+
+.tabdiv {
+    display: none;
+}
+
+.tabdiv.active {
+    display: block;
+    padding: 20px;
+}
+
+.gr-div {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: 50px;
+}
+
+.gr-div.size {
+    width: 200px;
+    height: 120px;
+}
+
+h1 {
+    font-size: 28px !important;
+    border-left: 7px solid blue;
+    padding-left: 5px;
+}
+
+video {
+    margin: auto !important;
+    display: block;
+}

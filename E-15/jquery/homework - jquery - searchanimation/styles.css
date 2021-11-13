@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    position: relative !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.myform {
+    width: 70px;
+    height: 70px;
+    left: 50%;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+    background-color: #1eaddc;
+    border-radius: 50px;
+}
+
+input {
+    display: none;
+    border-radius: 50px;
+    padding: 28px;
+    color: #146c8a;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    right: 0%;
+    color: white;
+}
+
+button:focus {
+    outline: none !important;
+}
+
+i {
+    font-size: 30px;
+}

@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    background-color: black !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    position: relative;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.main {
+    position: absolute;
+    top: 50vh !important;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+i{
+    font-size: 50px !important;
+    margin: 20px !important;
+    color: white;
+}
+
+.active {
+    color: red;
+}

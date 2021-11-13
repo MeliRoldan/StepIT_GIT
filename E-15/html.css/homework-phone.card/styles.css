@@ -1,0 +1,39 @@
+body {margin: 0px; padding: 100px 0px;
+background-color: #daecec;}
+* {box-sizing: border-box;}
+
+.card {width: 40%; margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 8px rgb(196, 195, 195);
+    background-color: white;
+}
+
+.top {position: relative; overflow: hidden;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;}
+    
+    img {width: 100%;}
+
+    h1 {width: 55%; color: white;
+    position: absolute; top: 0; left: 20px;}
+    
+    .date {position: absolute; bottom: 0; left: 20px;
+        color: rgba(255, 255, 255, 0.788); font-size: 20px;
+}
+
+.bottom {position: relative; 
+    padding: 20px; font-size: 25px;}
+    
+    p {margin: 0px; padding-bottom: 35px; color: #949697;}
+    a {text-decoration: none; color: #37b6b2;}
+    a:hover {text-decoration: underline;}
+    i {position: absolute; bottom: 21px; left: 155px;}
+    
+    button {position: absolute; right: 20px; bottom: 13px; 
+        border: none; border-radius: 10px; 
+        padding: 13px 25px; font-size: 15px;
+        color: white; background-color: #f05c5d;}
+    button:hover {background: rgb(231,160,254);
+        background: linear-gradient(318deg, rgba(231,160,254,1) 16%, rgba(187,133,254,1) 29%, rgba(96,79,253,1) 68%);
+}

@@ -1,0 +1,20 @@
+body {margin:0px;
+    background-image: url(/images/ella-olsson-KPDbRyFOTnE-unsplash.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;}
+
+    div {width: 100%; 
+        margin: 210px 0px auto;
+        padding-top: 10px;
+        padding-bottom: 80px;
+        background-color: rgba(0, 0, 0, 0.473);
+        color: white;
+        text-align: center;}
+
+        h1 {text-transform: uppercase; line-height: 2.5;}
+        h2 {letter-spacing: 1px;}
+
+
+
+
