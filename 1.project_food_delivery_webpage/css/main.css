@@ -1,0 +1,554 @@
+body {
+    margin: 0 !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    background-image: url("../images/rewards-pizza.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+.mycontainer {
+    width: 80%;
+    margin: auto;
+}
+
+.btn-danger {
+    border: none;
+}
+
+.bgdark {
+    background-color: rgba(0, 0, 0, 0.589);
+}
+
+/*NAV & HEADER SECTION*/
+.top-nav a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-size: 13px;
+    margin-left: 15px;
+}
+
+.top-nav a:hover {
+    color: #FBAD27;
+}
+
+.social-links {
+    justify-content: end;
+}
+
+.nav-btn {
+    width: 30px;
+    height: 30px;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.nav-btn.active, .nav-btn:hover {
+    background-color: red !important;
+    border-color: red !important;
+}
+
+.nav-item {
+    width: fit-content;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.nav-link.active, .nav-link:hover {
+    color:orange !important;
+}
+
+.btn-p {
+    padding: 5.5px 13px;
+    border: 1px solid white;
+    border-right: 0;
+}
+
+.free-btn {
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+.triangle {
+    font-size: 37px;
+    right: -29px;
+    top: 0;
+    z-index: 0;
+}
+
+.free-btn:hover .triangle {
+    color: #BB2D3B !important;
+}
+
+/* BLOG SECTION*/
+.play-i {
+    width: 33px;
+    height: 33px;
+    background-color: red;
+    transform: translate(-50%, -50%);
+    font-size: 13px;
+}
+
+.play-i i {
+    top: 55%;
+    left: 55%;
+    transform: translate(-55%, -55%);
+}
+
+.blog-offer-div {
+    box-shadow: 2px 2px 28px 0px rgb(182, 182, 182);
+}
+
+.handwriting {
+    font-family: 'Caveat', cursive;
+}
+
+.order-h {
+    font-family: 'Secular One', sans-serif;
+}
+
+/* BOOKING SECTION*/
+.booking-div {
+    background-image: url("https://st4.depositphotos.com/14458866/41721/v/950/depositphotos_417213894-stock-illustration-pattern-of-black-and-white.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.form-floating select, .form-floating input {
+    padding: 0px !important;
+    padding-left: 33px !important;
+    height: 40px !important;
+}
+
+.form-floating label {
+    top: 3px !important;
+}
+
+.select-btn {
+    right: 13px;
+    top: 16px;
+    font-size: 12px;
+}
+
+/* CATEGORY SECTION*/
+.category-img-div {
+    height: 50%;
+}
+
+.categry-row .col {
+    height: 150px;
+}
+
+.category-img-div img {
+    object-fit: contain;
+}
+
+.category-card.active {
+    color: green;
+    box-shadow: 2px 2px 18px 0px rgba(0, 255, 21, 0.486);
+}
+
+.category-card:hover {
+    color: red;
+    box-shadow: 2px 2px 18px 0px rgba(255, 0, 0, 0.486);
+}
+
+.category-items {
+    box-shadow: 2px 2px 28px 0px rgb(182, 182, 182);
+}
+
+/* ALL ITEMS SECTION*/
+.all-items-section {
+    background: rgb(255,235,228);
+    background: linear-gradient(180deg, rgba(255,235,228,1) 23%, rgba(255,255,255,1) 74%);
+}
+
+
+
+.all-items-img-div {
+   display: flex;
+   width: 100px;
+   height: 100px;
+}
+
+.all-items-img-div img {
+    object-fit: contain !important;
+    object-position: center;
+}
+
+.items-card:hover {
+    box-shadow: 2px 2px 28px 0px rgb(182, 182, 182);
+}
+
+/* SPECIAL OFFERS SECTION */
+.specials-row .col {
+    height: 233px;
+}
+
+.specials-row-img-div img {
+    object-fit: cover !important;
+    object-position: center;
+}
+
+.absolute-card {
+    position: absolute;
+    height: 210.5%;
+}
+
+.price-tags, .price-tags-snd {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 70%;
+    bottom: 20%;
+}
+
+.price-tags {
+    left: 70%;
+    bottom: 20%;
+}
+
+.price-tags-snd {
+    left: 70%;
+    top: 20%;
+}
+
+/* COUNTDOWN SECTION */
+.clock-container {
+    background-image: url("../images/slider-pizza-belmont-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clock-div {
+    width: 50%;
+}
+
+/* CAROUSEL */
+
+.carousel-img-div img {
+    object-fit: cover !important;
+    object-position: center;
+}
+
+.carousel-btn {
+    border-radius: 50% !important;
+    width: 10% !important;
+    height: 10% !important;
+    background-color: black !important;
+}
+
+.carousel-btn.active {
+   background-color: red !important;
+   transform: scale(1.5);
+}
+
+.carousel-cards .card:hover {
+    border: none;
+    box-shadow: 2px 2px 18px 0px rgb(182, 182, 182) !important;
+}
+
+/* SWIPER SECTION */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    height: 200px !important;
+    display: flex !important;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover !important;
+}
+
+/* DELIVERY SECTION */
+.delivery {
+    background-image: url("https://st4.depositphotos.com/14458866/41721/v/950/depositphotos_417213894-stock-illustration-pattern-of-black-and-white.jpg");
+}
+
+.delivery-img-div img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+/* MENU PAGE*/
+
+aside {
+    width: 25%;
+}
+
+.shop-div {
+    width: 75%;
+}
+
+.aside-img-div {
+    display: flex;
+    width: 70px;
+    height: 70px;
+}
+
+.aside-img-div img {
+    object-fit: contain !important;
+    object-position: center;
+}
+
+.cart-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+}
+
+.cart-icon:hover {
+    border: none !important;
+    background-color: red !important;
+    color: white !important;
+}
+
+.aside-img-div-snd {
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
+
+.aside-img-div-snd img {
+    object-fit: cover !important;
+    object-position: center;
+}
+
+.page-btn {
+    color: red !important;
+}
+
+.page-btn:hover, .page-btn.active {
+    background-color: red !important;
+    color: white !important;
+}
+
+.range-sld {
+    position: relative;
+    height: 6px;
+    background: #ccc;
+}
+  
+.line {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 6px;
+    background-color: red;
+    z-index: 0;
+}
+  
+.thumb {
+    position: absolute;
+    z-index: 1;
+    text-align: left;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 50%;
+    outline: none;
+    top: -6px;
+    height: 18px;
+    width: 18px;
+    margin-left: -9px;
+}
+
+.thumb:hover {
+    cursor: pointer;
+}
+  
+.range-inpt {
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+    pointer-events: none;
+    z-index: 2;
+    height: 3px;
+    top: 0;
+    width: 100%;
+    opacity: 0;
+    margin: 0;
+}
+  
+.range-inpt::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    pointer-events: all;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+}
+
+.advert {
+    height: 333px;
+}
+
+.advert-img {
+    object-fit: cover !important;
+}
+
+.list-style:focus {
+    box-shadow: none !important;
+}
+
+.menu-filter .col .card:hover {
+    background-color: red !important;
+    color: white;
+    cursor: pointer;
+}
+
+.breadcrumb-item a {
+    text-decoration: none !important;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* FOOTER */
+
+footer {
+    background-image: url("https://png.pngtree.com/background/20210710/original/pngtree-cartoon-black-food-poster-background-picture-image_1035986.jpg");
+}
+
+.footer-logo-div {
+    height: 80px;
+}
+
+.footer-logo-div img {
+    object-fit: contain !important;
+}
+
+.footer-top-nav{
+    border-bottom: 1px dotted white;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+footer ul li a {
+    display: block;
+    text-decoration: none;
+    color: white
+}
+
+footer ul li a:hover {
+    color: #FBAD27
+}
+
+.subscribe:focus {
+   border-color: #FBAD27 !important;
+   box-shadow: 1px 1px 10px #FBAD27 !important;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 991px) {
+    .absolute-card {
+        position: static;
+        height: 100%;
+    }
+
+    .table-btn {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-top-nav {
+        flex-direction: column;
+    }
+
+    footer ul {
+        text-align: center;
+     }
+ 
+     .social-links, .contacts {
+        justify-content: center !important;
+    }
+
+    .mycontainer {
+        width: 90%;
+    }
+
+    .clock-div {
+        align-items: center;
+        width: 100% !important;
+        margin: auto !important;
+        background-color: rgba(0, 0, 0, 0.452);
+    }
+
+    .slide-price-p {
+        width: 100%;
+    }
+}
+
+@media (max-width: 469px) {
+    .top-nav div {
+        justify-content: center !important;
+    }
+
+    .top-nav span {
+        margin: 0 !important;
+    }
+}
+
+@media (max-width: 383px) {
+    .btn-p {
+        padding: 5.5px 13px;
+        border: 0px;
+    }
+
+    .free-btn-div {
+        justify-content: center;
+    }
+
+    .special {
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.486) !important;
+    }
+
+    .special h1 {
+        text-align: center;
+    }
+
+    .header-delivery-div{
+        justify-content: center;
+    }
+
+    #countdown p {
+        font-size: 13px !important;
+    }
+
+    #countdown small {
+        font-size: 10px !important;
+    }
+
+    .advert {
+        display: none;
+    }
+}

@@ -1,0 +1,89 @@
+body {
+    margin: 0 !important;
+    background-color: rgb(239,239,239) !important;
+    position: relative !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    padding: 5px 5px !important;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
+}
+
+.card:hover {
+    animation: scale 2s alternate;
+    cursor: pointer;
+}
+
+@keyframes scale {
+    from {transform: scale(1.2);}
+    to {}
+}
+
+.card-body {
+    padding: 10px 20px !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.card-head a {
+    height: 150px !important;
+    display: flex;
+}
+
+p {
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+p.list-style , h6.list-style {
+    white-space: normal;
+    position: relative;
+    animation: list 0.5s ease-in;
+}
+
+@keyframes list {
+    from {
+        left: -10px;
+        opacity: 0;
+    }
+    to{
+        left: 0;
+        opacity: 1;
+    }
+}
+
+p.grid-style , h6.grid-style {
+    position: relative;
+    animation: grid 0.5s ease-in;
+}
+
+@keyframes grid {
+    from {
+        top: -20px;
+        opacity: 0;
+    }
+    to{
+        top: 0;
+        opacity: 1;
+    }
+}
+
+button {
+    padding-right: 15px !important;
+}
+
+button.active {
+    background-color: white !important;
+}
+
+button:focus{
+    box-shadow: none !important;
+}

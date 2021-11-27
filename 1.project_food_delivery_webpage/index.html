@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+</head>
+<body>
+  <!--HEADER-->
+    <div>
+      <div class="main container-fluid">
+        <!--FIRST TOP NAV-->
+          <div class="top-nav mycontainer bgdark p-2 d-flex align-items-center justify-content-between flex-wrap">
+              <div class="d-flex flex-fill contacts">
+                <a href="#" class="me-3"><i class="fas fa-phone-square-alt"></i> 123-5890-7560</a>
+                <a href="#"><i class="fas fa-envelope-square"></i> supportfood@khan.com</a>
+              </div>
+              <span class="d-flex p-2 social-links flex-fill">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </span>
+          </div>
+          <!--HEADER BANNER-->
+          <header class="mycontainer banner bg-transparent h-100">
+              <!--NAV MENU-->
+              <nav class="navbar navbar-expand-lg navbar-dark bgdark rounded-bottom py-1">
+                  <div class="container-fluid">
+                    <a class="navbar-brand m-0 d-flex" href="#" style="width: 39px; height: 49px;">
+                      <img src="images/foodlogo.png" alt="" class="w-100 h-100">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse px-1 rounded-3" id="navbarTogglerDemo02">
+                      <ul class="navbar-nav mx-auto my-0 mb-lg-0 d-flex align-items-center justify-content-center">
+                        <li class="nav-item">
+                          <a class="nav-link link active" aria-current="page" href="index.html" id="home" name="home">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#" id="reservation" name="Reservation">RESERVATION</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#" id="menu" name="Menu">MENU</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#" id="about" name="About Us">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#" id="contact" name="Contact Us">CONTACT US</a>
+                        </li>
+                        <span class="d-flex align-items-center rounded-nav-items">
+                          <li class="nav-item mx-2">
+                            <a class="nav-link rounded-circle border nav-btn bg-dark" href="#" id="Favorites"><i class="fas fa-heart text-white"></i></a>
+                          </li>
+                          <li class="nav-item mx-2">
+                            <a class="nav-link rounded-circle border nav-btn bg-dark" href="#" id="Profile"><i class="fas fa-user text-white"></i></a>
+                          </li>
+                          <li class="nav-item mx-2">
+                            <a class="nav-link rounded-circle border nav-btn bg-dark" href="#" id="Shopping Cart"><i class="bi bi-basket text-white mb-1"></i></a>
+                          </li>
+                        </span>
+                      </ul>
+                      <form class="text-center py-2">
+                        <button class="btn btn-danger px-4 py-1" type="submit">Login</button>
+                      </form>
+                    </div>
+                  </div>
+              </nav>
+              <!--BANNER TEXT CONTENT-->
+              <div id="banner-content">
+                <div class="special text-white d-flex flex-column py-3 px-3">
+                  <h1 class="fw-bold">ENJOY YOUR <br>DELICOUS <span class="text-warning">FOOD</span></h1>
+                  <div class="d-flex flex-wrap mt-5 mb-4 free-btn-div">
+                      <p class="my-0 btn-p rounded-start">Buy One Pizza. Get One</p>
+                      <button type="button" class="btn btn-danger position-relative free-btn">FREE
+                        <i class="fas fa-play position-absolute triangle text-danger"></i>
+                      </button>
+                  </div>
+                  <p class="fw-bold">Price: <span class="text-warning fs-5 fw-bold price-p">$10.50</span></p>
+                  <div class="d-flex flex-wrap align-items-center header-delivery-div my-5">
+                    <img src="https://img.icons8.com/color/48/000000/food-truck.png"/>
+                    <span class="mx-2">
+                      <small>Delivery Order Num.</small>
+                      <p class="m-0 text-warning">123-5890-7560</p>
+                    </span>
+                    <button type="button" class="btn btn-danger px-4">Try It Now</button>
+                  </div>
+              </div>
+              </div>
+          </header>
+      </div>
+    </div>
+    
+    <!--PAGE LOAD-->
+    <div id="pages">
+      <!--SECTIONS-->
+    <div class="mycontainer">
+      <!--BOOKING-->
+      <div class="booking-div w-75 m-auto text-center py-5">
+        <p class="text-danger handwriting fs-3 m-0">Online Booking</p>
+        <h2 class="order-h">Table <span class="text-danger">Booking</span></h2>
+        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-2 my-4 px-3 justify-content-center">
+          <div class="col col-md-4 col-lg-3">
+            <div class="form-floating">
+              <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                <option selected>1 People</option>
+                <option value="1">2 People</option>
+                <option value="2">3 People</option>
+                <option value="3">4 People</option>
+              </select>
+              <label for="floatingSelect"><i class="fas fa-user"></i></label>
+            </div>
+          </div>
+          <div class="col col-md-4 col-lg-3">
+            <div class="form-floating">
+              <input type="text" class="form-control date" id="datepicker" placeholder="" value="">
+              <label for="floatingSelect"><i class="fas fa-calendar-alt"></i></label>
+              <i class="fas fa-chevron-down select-btn position-absolute"></i>
+            </div>
+          </div>
+          <div class="col col-md-4 col-lg-3">
+            <div class="form-floating">
+              <input type="text" class="form-control timepicker" id="timepicker" placeholder="" value="">
+              <label for="floatingSelect"><i class="fas fa-clock"></i></label>
+              <i class="fas fa-chevron-down select-btn position-absolute"></i>
+            </div>
+          </div>
+          <div class="col col-md-4 col-lg-3 d-flex align-items-center table-btn">
+            <button type="button" class="btn btn-danger px-4 w-100">Find Table</button>
+          </div>
+        </div>
+      </div>
+      <!--BLOG-->
+      <section class="row row-cols-1 row-cols-md-2 mt-5">
+        <div class="gallery-one col my-4">
+          <div class="row row-cols-1 row-cols-md-2 g-2">
+            <div class="col col-5">
+              <div class="card border-0 overflow-hidden h-100 d-flex justify-content-end">
+                <a data-fslightbox="gallery" href="https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1504&q=80">
+                  <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YnVyZ2VyfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="card-img">
+                </a>
+              </div>
+            </div>
+            <div class="col col-7">
+              <div class="card border-0 overflow-hidden h-100 position-relative">
+                <a data-fslightbox="gallery"  href="https://www.youtube.com/watch?v=A9UHWxwDlTo" class="position-relative">
+                  <img src="https://images.unsplash.com/photo-1559056419-266cbf698202?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fGZyaWVuZHMlMjBlYXRpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="card-img">
+                  <span class="play-i position-absolute top-50 start-50 rounded-circle"><i class="fas fa-play position-absolute text-white"></i></span>
+                </a>
+              </div>
+            </div>
+            <div class="col col-7">
+              <div class="card border-0 overflow-hidden">
+                <a data-fslightbox="gallery" href="https://images.unsplash.com/photo-1571805618149-3a772570ebcd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+                  <img src="https://images.unsplash.com/photo-1571805618149-3a772570ebcd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YnVyZ2VyfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="card-img">
+                </a>
+              </div>
+            </div>
+            <div class="col col-5">
+              <div class="card border-0 overflow-hidden">
+                <a data-fslightbox="gallery" href="https://pbs.twimg.com/media/CVmlK-4WUAAPKpa.jpg">
+                  <img src="images/offer.jfif" alt="" class="card-img">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <h2 class="fw-bold mb-4">Fresh taste at a great price, only for <span class="text-danger">hungry people.</span></h2>
+          <p class="pb-3">Foos is a restaurant, bar and coffee roastery located on a busy corner site in Farinngdon's Exmouth Market. With Glazed.</p>
+          <div class="card mt-5 border-0 blog-offer-div" style="max-width: 540px;">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-0 d-flex align-items-center">
+              <div class="col-md-4 p-4">
+                <img src="images/Capture.JPG" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Garlic Burger Parties</h5>
+                  <p class="card-text w-75"><small>It is a long established fact that a  reader BBQ food Chicken.</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--CATEGORY-->
+      <section class="mt-5 mb-4 category-section">
+        <div class="w-100 text-center py-4">
+          <p class="text-danger handwriting fs-3 m-0">Food Items</p>
+          <h2 class="order-h fw-bold">Popular <span class="text-danger">Menu</span></h2>
+        </div>
+        <div class="row row-cols-2 row-cols-sm-3 row-cols-md-3 row-cols-lg-6 g-2 category-row">
+          <div class="col">
+            <div class="card h-100 text-center category-card">
+              <div class="p-1 category-img-div d-flex">
+                 <img src="https://cdn7.kiwilimon.com/recetaimagen/13003/640x426/th5-640x426-5707.jpg.webp" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body p-3">
+                <h6 class="card-title m-0">Pizza</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-center category-card">
+              <div class="p-1 category-img-div d-flex">
+                <img src="https://media.istockphoto.com/photos/juicy-hamburger-on-white-background-picture-id1206323282?k=20&m=1206323282&s=612x612&w=0&h=yatlq6BHRCCvoTzFZLSwaJc0O8Quct_tRPWtH0dj9Fc=" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body p-3">
+                <h6 class="card-title m-0">Burger</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-center category-card active">
+              <div class="p-1 category-img-div d-flex">
+                <img src="https://www.colourbox.com/preview/8687013-fried-chicken.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body p-3">
+                <h6 class="card-title m-0">Chicken</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-center category-card">
+              <div class="p-1 category-img-div d-flex">
+                <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/5/1/0/FNM_060113-Almost-Famous-Milkshakes-Recipe_s4x3.jpg.rend.hgtvcom.616.462.suffix/1371616331513.jpeg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body p-3">
+                <h6 class="card-title m-0">Drinks</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-center category-card">
+              <div class="p-1 category-img-div d-flex">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtyvi7J8EgLn3H3WaFDcmsrRXiNyykpQp2kSewt3GKdbpF7pwhERs3SPXsSD5DCqYN9_w&usqp=CAU" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body p-3">
+                <h6 class="card-title m-0">Drinks</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-center category-card">
+              <div class="p-1 category-img-div d-flex">
+                <img src="https://www.mitbit.ca/wp-content/uploads/2019/02/House-Burger-Combo-e1561691428871.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body p-3">
+                <h6 class="card-title m-0">Combo Menu</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--CATEGORY ITEMS-->
+      <section class="mt-0 mb-5 py-4 text-center border rounded category-items">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-4 position-relative text-start">
+          <div class="col">
+            <div class="card mb-3 border-0" style="max-width: 540px;">
+              <div class="row row-cols-2 row-cols-md-2 row-cols-lg-2 g-0 align-items-center">
+                <div class="col-4 col-sm-4 col-md-4 p-3">
+                  <img src="data:image/jpeg;base64,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" class="img-fluid rounded-circle" alt="...">
+                </div>
+                <div class="col-8 col-sm-8 col-md-8 p-2">
+                  <div class="card-body">
+                    <h6 class="card-title">Sauce Garlic Burger</h6>
+                    <p class="card-text m-0"><small>Shrimp, Squid, Pineapple</small></p>
+                    <p class="card-text m-0 fw-bold"><small>Price: $15.00</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-3 border-0" style="max-width: 540px;">
+              <div class="row row-cols-2 row-cols-md-2 row-cols-lg-2 g-0 align-items-center">
+                <div class="col-4 col-sm-4 col-md-4 p-3">
+                  <img src="https://images.unsplash.com/photo-1586032063807-8c6e8e5a466c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjR8fGNoaWNrZW4lMjBmb29kfGVufDB8MnwwfGJsYWNrfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="img-fluid rounded-circle" alt="...">
+                </div>
+                <div class="col-8 col-sm-8 col-md-8 p-2">
+                  <div class="card-body">
+                    <h6 class="card-title">Thai Roast Chicken</h6>
+                    <p class="card-text m-0"><small>Shrimp, Squid, Pineapple</small></p>
+                    <p class="card-text m-0 fw-bold"><small>Price: $10.00</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-3 border-0" style="max-width: 540px;">
+              <div class="row row-cols-2 row-cols-md-2 row-cols-lg-2 g-0 align-items-center">
+                <div class="col-4 col-sm-4 col-md-4 p-3">
+                  <img src="https://images.unsplash.com/photo-1543826173-70651703c5a4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2hpY2tlbiUyMHdpbmdzfGVufDB8MnwwfGJsYWNrfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="img-fluid rounded-circle" alt="...">
+                </div>
+                <div class="col-8 col-sm-8 col-md-8 p-2">
+                  <div class="card-body">
+                    <h6 class="card-title">The BBQ Chicken</h6>
+                    <p class="card-text m-0"><small>Shrimp, Squid, Pineapple</small></p>
+                    <p class="card-text m-0 fw-bold"><small>Price: $08.99</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-3 border-0" style="max-width: 540px;">
+              <div class="row row-cols-2 row-cols-md-2 row-cols-lg-2 g-0 align-items-center">
+                <div class="col-4 col-sm-4 col-md-4 p-3">
+                  <img src="https://images.unsplash.com/photo-1545595699-6c2c3c10db5c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzV8fHRoYWklMjBmb29kfGVufDB8MnwwfGJsYWNrfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="img-fluid rounded-circle" alt="...">
+                </div>
+                <div class="col-8 col-sm-8 col-md-8 p-2">
+                  <div class="card-body">
+                    <h6 class="card-title">Mutton Chettinad</h6>
+                    <p class="card-text m-0"><small>Shrimp, Squid, Pineapple</small></p>
+                    <p class="card-text m-0 fw-bold"><small>Price: $15.00</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-3 border-0" style="max-width: 540px;">
+              <div class="row row-cols-2 row-cols-md-2 row-cols-lg-2 g-0 align-items-center">
+                <div class="col-4 col-sm-4 col-md-4 p-3">
+                  <img src="https://images.unsplash.com/photo-1616524033290-42acf83299b6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTZ8fHRoYWklMjBmb29kfGVufDB8MnwwfGJsYWNrfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="img-fluid rounded-circle" alt="...">
+                </div>
+                <div class="col-8 col-sm-8 col-md-8 p-2">
+                  <div class="card-body">
+                    <h6 class="card-title">Thai Roast Chicken</h6>
+                    <p class="card-text m-0"><small>Shrimp, Squid, Pineapple</small></p>
+                    <p class="card-text m-0 fw-bold"><small>Price: $10.00</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-3 border-0" style="max-width: 540px;">
+              <div class="row row-cols-2 row-cols-md-2 row-cols-lg-2 g-0 align-items-center">
+                <div class="col-4 col-sm-4 col-md-4 p-3">
+                  <img src="https://images.unsplash.com/photo-1604908553401-3f404afb8ea0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGZvb2R8ZW58MHwyfDB8YmxhY2t8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="img-fluid rounded-circle" alt="...">
+                </div>
+                <div class="col-8 col-sm-8 col-md-8 p-2">
+                  <div class="card-body">
+                    <h6 class="card-title">The BBQ Chicken</h6>
+                    <p class="card-text m-0"><small>Shrimp, Squid, Pineapple</small></p>
+                    <p class="card-text m-0 fw-bold"><small>Price: $08.99</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="btn btn-danger px-4 my-3">Order Now</button>
+      </section>
+    </div>
+
+    <!--ALL ITEMS-->
+    <div class="container-fluid all-items-section">
+      <div class="mycontainer py-5">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 g-4 align-items-end">
+          <div class="col">
+            <p class="text-danger handwriting fs-3 m-0">Food Items</p>
+            <h2 class="order-h fw-bold mb-0">Popular <span class="text-danger">Dishes</span></h2>
+          </div>
+          <div class="col mb-2 d-flex flex-wrap">
+            <button type="button" class="btn btn-danger border-0 fw-bold me-1 my-1">All Items</button>
+            <button type="button" class="btn btn-danger border-0 fw-bold me-1 my-1">Pizza</button>
+            <button type="button" class="btn btn-danger border-0 fw-bold me-1 my-1">Burger</button>
+            <button type="button" class="btn btn-danger border-0 fw-bold me-1 my-1">Chicken</button>
+            <button type="button" class="btn btn-danger border-0 fw-bold me-1 my-1">Drinks</button>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4 mt-3 all-items-row">
+          <div class="col">
+            <div class="card h-100 items-card">
+              <div class="img-card my-4">
+               <div class="rounded-circle border overflow-hidden m-auto all-items-img-div">
+                  <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+               </div>
+              </div>
+              <div class="card-body">
+                <h6 class="card-title fw-bold">Garlic Burger Parties</h6>
+                <p class="card-text">It is a long established fact that a reader BBQ food Chicken.</p>
+                <small class="fw-bold">Price: $50.00</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 items-card">
+              <div class="img-card my-4">
+                <div class="rounded-circle border overflow-hidden m-auto all-items-img-div">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6hnXzEKYZDrh80-IUrOoetG06khIcmZm-SA&usqp=CAU" class="card-img-top" alt="...">
+                </div>
+              </div>
+              <div class="card-body">
+                <h6 class="card-title fw-bold">Chicken Menu</h6>
+                <p class="card-text">It is a long established fact that a reader BBQ food Chicken.</p>
+                <small class="fw-bold">Price: $50.00</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 items-card">
+              <div class="img-card my-4">
+                <div class="rounded-circle border overflow-hidden m-auto all-items-img-div">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN9V8o5wYp8pXYXMEpD67aICmm7n3c4HeGhg&usqp=CAU" class="card-img-top" alt="...">
+                </div>
+              </div>
+              <div class="card-body">
+                <h6 class="card-title fw-bold">Chicken Soup</h6>
+                <p class="card-text">It is a long established fact that a reader BBQ food Chicken.</p>
+                <small class="fw-bold">Price: $50.00</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 items-card">
+              <div class="img-card my-4">
+                <div class="rounded-circle border overflow-hidden m-auto all-items-img-div">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ7k770l__hhDoWUdOG9Y9CI8M6iW4v-V2zg&usqp=CAU" class="card-img-top" alt="...">
+                </div>
+              </div>
+              <div class="card-body">
+                <h6 class="card-title fw-bold">Roasted Chicken</h6>
+                <p class="card-text">It is a long established fact that a reader BBQ food Chicken.</p>
+                <small class="fw-bold">Price: $50.00</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 items-card">
+              <div class="img-card my-4">
+                <div class="rounded-circle border overflow-hidden m-auto all-items-img-div">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIcQRq3b_9SZ5yRUU5Orb-8jxKpe7D5rRN5g&usqp=CAU" class="card-img-top" alt="...">
+                </div>
+              </div>
+              <div class="card-body">
+                <h6 class="card-title fw-bold">Burger Menu</h6>
+                <p class="card-text">It is a long established fact that a reader BBQ food Chicken.</p>
+                <small class="fw-bold">Price: $50.00</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 items-card">
+              <div class="img-card my-4">
+                <div class="rounded-circle border overflow-hidden m-auto all-items-img-div">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0lQEU1VEA0_tw0SibALsSSiGJdTP0I95xSQ&usqp=CAU" class="card-img-top" alt="...">
+                </div>
+              </div>
+              <div class="card-body">
+                <h6 class="card-title fw-bold">Vegi Salad</h6>
+                <p class="card-text">It is a long established fact that a reader BBQ food Chicken.</p>
+                <small class="fw-bold">Price: $50.00</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 items-card">
+              <div class="img-card my-4">
+                <div class="rounded-circle border overflow-hidden m-auto all-items-img-div">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUYKDRH4l58OW3PtfGBPdJrH4Wn_SOTzln9Q&usqp=CAU" class="card-img-top" alt="...">
+                </div>
+              </div>
+              <div class="card-body">
+                <h6 class="card-title fw-bold">Salad Roll</h6>
+                <p class="card-text">It is a long established fact that a reader BBQ food Chicken.</p>
+                <small class="fw-bold">Price: $50.00</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 items-card">
+              <div class="img-card my-4">
+                <div class="rounded-circle border overflow-hidden m-auto all-items-img-div">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8AVwWUuCZlGlWgFYR8ZvtEOAE7nB5sKUI9g&usqp=CAU" class="card-img-top" alt="...">
+                </div>
+              </div>
+              <div class="card-body">
+                <h6 class="card-title fw-bold">Mexican Taco</h6>
+                <p class="card-text">It is a long established fact that a reader BBQ food Chicken.</p>
+                <small class="fw-bold">Price: $50.00</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--SPECIAL OFFERS-->
+    <div class="mycontainer mb-5 pb-5">
+      <div class="row row-cols-1 row-cols-md-3 g-4 specials-row">
+        <div class="col col-lg-6 col-md-4">
+          <div class="card h-100 bg-dark text-white border-0">
+            <div class="d-flex specials-row-img-div h-100">
+              <img src="https://images.unsplash.com/photo-1551782450-a2132b4ba21d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTF8fGJ1cmdlciUyMGFuZCUyMGZyaWVzfGVufDB8MHwwfGJsYWNrfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img" alt="...">
+            </div>
+            <div class="card-img-overlay d-flex flex-column justify-content-center align-items-start">
+              <h5 class="card-title fw-bold">Buzzed Burger</h5>
+              <p class="card-text"><small>Sell off 50% only this week</small></p>
+              <button type="button" class="btn btn-danger">ORDER NOW</button>
+            </div>
+          </div>
+        </div>
+        <div class="col col-lg-3 col-md-4">
+          <div class="card h-100 bg-dark text-white border-0 position-relative">
+            <div class="d-flex specials-row-img-div h-100">
+              <img src="https://images.unsplash.com/photo-1617002125368-64d671e9a4cc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE3fHxwaXp6YXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img" alt="...">
+            </div>
+            <div class="card-img-overlay d-flex flex-column justify-content-end align-items-start">
+              <h5 class="card-title fw-bold">Special Delicious Pizza</h5>
+              <a href="#" class="text-white text-decoration-none ms-auto fw-bold">ORDER NOW</a>
+            </div>
+            <span class="bg-danger text-white position-absolute rounded-circle price-tags-snd">$10</span>
+          </div>
+        </div>
+        <div class="col col-lg-3 col-md-4 position-relative">
+          <div class="card bg-dark text-white border-0 absolute-card">
+            <div class="d-flex specials-row-img-div h-100">
+              <img src="https://i.ytimg.com/vi/r9qURA6P3UU/maxresdefault.jpg" class="card-img" alt="...">
+            </div>
+            <div class="card-img-overlay d-flex flex-column justify-content-top align-items-start">
+              <h5 class="card-title fw-bold my-4">Special Combo Burger</h5>
+              <button type="button" class="btn btn-warning text-dark fw-bold">ORDER NOW</button>
+            </div>
+          </div>
+        </div>
+        <div class="col col-lg-3 col-md-4">
+          <div class="card h-100 bg-dark text-white border-0 position-relative">
+            <div class="d-flex specials-row-img-div h-100">
+              <img src="https://www.taster.com/wp-content/uploads/2021/02/texas_nohalo-medium-640x479.jpg" class="card-img" alt="...">
+            </div>
+            <div class="card-img-overlay d-flex flex-column justify-content-top align-items-start">
+              <h5 class="card-title fw-bold my-2">Super Delicious Burger</h5>
+              <button type="button" class="btn btn-success me-auto fw-bold">ORDER NOW</button>
+            </div>
+            <span class="bg-danger text-white position-absolute rounded-circle price-tags">$10</span>
+          </div>
+        </div>
+        <div class="col col-lg-3 col-md-4">
+          <div class="card h-100 bg-dark text-white border-0 position-relative">
+            <div class="d-flex specials-row-img-div h-100">
+              <img src="https://images.unsplash.com/photo-1617002125368-64d671e9a4cc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE3fHxwaXp6YXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img" alt="...">
+            </div>
+            <div class="card-img-overlay d-flex flex-column justify-content-end align-items-start">
+              <h5 class="card-title fw-bold">Special Delicious Pizza</h5>
+              <button type="button" class="btn btn-link text-white text-decoration-none ms-auto fw-bold">ORDER NOW</button>
+            </div>
+            <span class="bg-danger text-white position-absolute rounded-circle price-tags-snd">$10</span>
+          </div>
+        </div>
+        <div class="col col-lg-3 col-md-4">
+          <div class="card h-100 bg-dark text-white border-0 position-relative">
+            <div class="d-flex specials-row-img-div h-100">
+              <img src="https://www.taster.com/wp-content/uploads/2021/02/texas_nohalo-medium-640x479.jpg" class="card-img" alt="...">
+            </div>
+            <div class="card-img-overlay d-flex flex-column justify-content-top align-items-start">
+              <h5 class="card-title fw-bold my-2">Super Delicious Burger</h5>
+              <button type="button" class="btn btn-success me-auto fw-bold">ORDER NOW</button>
+            </div>
+            <span class="bg-danger text-white position-absolute rounded-circle price-tags">$10</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--COUNTDOWN-->
+    <div class="container-fluid clock-container">
+      <div class="mycontainer h-100">
+        <div class="ms-auto px-2 py-4 text-white d-flex flex-column justify-content-center h-100 clock-div">
+          <p class="text-danger handwriting fs-3 m-0">Food Items</p>
+          <h2 class="order-h fw-bold mb-0">Spicy Chicken Pizza <span class="text-warning">Food</span></h2>
+          <p><small>Feel Hunger! Order Your Favorite Food.</small></p>
+          <div id="countdown" class="fw-bold d-flex">
+              <div class="text-center ps-0 pe-2">
+                <p id="dd" class="m-0 fs-2"></p>
+                <small class="m-0">Days</small>
+              </div>
+              <div class="fs-2">
+                <p class="text-danger m-0">:</p>
+              </div>
+              <div class="text-center px-2">
+                <p id="hh" class="m-0 fs-2"></p>
+                <small class="m-0">Hours</small>
+              </div>
+              <div class="fs-2">
+                <p class="text-danger m-0">:</p>
+              </div>
+              <div class="text-center px-2">
+                <p id="mm" class="m-0 fs-2"></p>
+                <small class="m-0">Minutes</small>
+              </div>
+              <div class="fs-2">
+                <p class="text-danger m-0">:</p>
+              </div>
+              <div class="text-center pe-0 ps-2">
+                <p id="ss" class="m-0 fs-2"></p>
+                <small class="m-0">Second</small>
+              </div>
+          </div>  
+          <div>
+            <button type="button" class="btn btn-danger border-0 px-4 my-4">Order Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--FIRST CAROUSEL-->
+    <div class="mycontainer my-5">
+      <div class="w-100 text-center py-4">
+        <p class="text-danger handwriting fs-3 m-0">Food Items</p>
+        <h2 class="order-h fw-bold">Popular <span class="text-danger">Menu</span></h2>
+      </div>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide pt-5 pb-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="carousel-btn rounded-circle active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" class="carousel-btn rounded-circle" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" class="carousel-btn rounded-circle" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner p-3">
+          <div class="carousel-item active" data-bs-interval="10000">
+              <div class="row row-cols-1 row-cols-md-2 g-4 carousel-cards">
+                <div class="col">
+                  <div class="card h-100">
+                    <div class="row px-3 py-0">
+                      <div class="col col-lg-3 col-md-3 col-sm-2 col-12 carousel-img-div">
+                        <img src="https://images.unsplash.com/photo-1535162777965-1304efc8c6dc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZmFjZXN8ZW58MHwyfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img" alt="...">
+                      </div>
+                      <div class="col py-3">
+                        <h6 class="card-title fw-bold">Christ Deo</h6>
+                        <p class="card-text m-0"><small>CEO, ALTech Ltd.</small></p>
+                        <span>
+                          <small>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                          </small>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus inventore officiis veniam autem. At quos ipsa sunt dolor eos a consectetur ab alias necessitatibus!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <div class="row px-3 py-0">
+                      <div class="col col-lg-3 col-md-3 col-sm-2 col-12 carousel-img-div">
+                        <img src="https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTY3fHxmYWNlc3xlbnwwfDJ8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img" alt="...">
+                      </div>
+                      <div class="col py-3">
+                        <h6 class="card-title fw-bold">Linda Walsh</h6>
+                        <p class="card-text m-0"><small>CEO</small></p>
+                        <span>
+                          <small>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                          </small>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus inventore officiis veniam autem. At dolor consectetur necessitatibus.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="row row-cols-1 row-cols-md-2 g-4 carousel-cards">
+              <div class="col">
+                <div class="card h-100">
+                  <div class="row px-3 py-0">
+                    <div class="col col-lg-3 col-md-3 col-sm-2 col-12 carousel-img-div">
+                      <img src="https://images.unsplash.com/photo-1621787279751-2baabc22d976?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzg5fHxmYWNlc3xlbnwwfDJ8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img" alt="...">
+                    </div>
+                    <div class="col py-3">
+                      <h6 class="card-title fw-bold">Christ Deo</h6>
+                      <p class="card-text m-0"><small>CEO, ALTech Ltd.</small></p>
+                      <span>
+                        <small>
+                          <i class="fas fa-star text-warning"></i>
+                          <i class="fas fa-star text-warning"></i>
+                          <i class="fas fa-star text-warning"></i>
+                          <i class="fas fa-star text-warning"></i>
+                          <i class="fas fa-star text-warning"></i>
+                        </small>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus inventore officiis veniam autem. At quos ipsa sunt dolor eos a consectetur ab alias necessitatibus!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <div class="row px-3 py-0">
+                    <div class="col col-lg-3 col-md-3 col-sm-2 col-12 carousel-img-div">
+                      <img src="https://images.unsplash.com/photo-1534644586429-7681a71bc591?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjczfHxmYWNlc3xlbnwwfDJ8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img" alt="...">
+                    </div>
+                    <div class="col py-3">
+                      <h6 class="card-title fw-bold">Linda Walsh</h6>
+                      <p class="card-text m-0"><small>CEO</small></p>
+                      <span>
+                        <small>
+                          <i class="fas fa-star text-warning"></i>
+                          <i class="fas fa-star text-warning"></i>
+                          <i class="fas fa-star text-warning"></i>
+                          <i class="fas fa-star text-warning"></i>
+                          <i class="fas fa-star text-warning"></i>
+                        </small>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus inventore officiis veniam autem. At dolor consectetur necessitatibus.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row row-cols-1 row-cols-md-2 g-4 carousel-cards">
+              <div class="col">
+                <div class="card h-100">
+                  <div class="row px-3 py-0">
+                    <div class="col col-lg-3 col-md-3 col-sm-2 col-12 carousel-img-div">
+                      <img src="https://images.unsplash.com/photo-1513091550446-33297bfca05b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjQwfHxmYWNlc3xlbnwwfDJ8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img" alt="...">
+                    </div>
+                    <div class="col py-3">
+                      <h6 class="card-title fw-bold">Christ Deo</h6>
+                      <p class="card-text m-0"><small>CEO, ALTech Ltd.</small></p>
+                      <span>
+                        <small>
+                          <i class="fas fa-star text-warning"></i>
+                          <i class="fas fa-star text-warning"></i>
+                          <i class="fas fa-star text-warning"></i>
+                          <i class="fas fa-star text-warning"></i>
+                          <i class="fas fa-star text-warning"></i>
+                        </small>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus inventore officiis veniam autem. At quos ipsa sunt dolor eos a consectetur ab alias necessitatibus!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <div class="row px-3 py-0">
+                    <div class="col col-lg-3 col-md-3 col-sm-2 col-12 carousel-img-div">
+                      <img src="https://images.unsplash.com/photo-1615749500245-687f9ec319b6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjIzfHxmYWNlc3xlbnwwfDJ8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img" alt="...">
+                    </div>
+                    <div class="col py-3">
+                      <h6 class="card-title fw-bold">Linda Walsh</h6>
+                      <p class="card-text m-0"><small>CEO</small></p>
+                      <span>
+                        <small>
+                          <i class="fas fa-star text-warning"></i>
+                          <i class="fas fa-star text-warning"></i>
+                          <i class="fas fa-star text-warning"></i>
+                          <i class="fas fa-star text-warning"></i>
+                          <i class="fas fa-star text-warning"></i>
+                        </small>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus inventore officiis veniam autem. At dolor consectetur necessitatibus.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--SWIPER-->
+    <div class="swiper mySwiper my-5">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="https://images.unsplash.com/photo-1598514982901-ae62764ae75e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHJlc3RhdXJhbnQlMjBmb29kfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cmVzdGF1cmFudHxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://images.unsplash.com/photo-1519671282429-b44660ead0a7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjR8fHJlc3RhdXJhbnR8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://images.unsplash.com/photo-1460306855393-0410f61241c7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fHJlc3RhdXJhbnR8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://images.unsplash.com/photo-1512485800893-b08ec1ea59b1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzF8fHJlc3RhdXJhbnR8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://images.unsplash.com/photo-1602748828157-6cb2b371e881?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTQ3fHxyZXN0YXVyYW50fGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://images.unsplash.com/photo-1568680466895-34b9504c8b10?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjEyfHxyZXN0YXVyYW50fGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://images.unsplash.com/photo-1560963689-02e82017fb3c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjUzfHxyZXN0YXVyYW50fGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://images.unsplash.com/photo-1543087903-bfb8ecad1233?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjYzfHxyZXN0YXVyYW50fGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://images.unsplash.com/photo-1585144570839-e429bb95ffb4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzE3fHxyZXN0YXVyYW50fGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://images.unsplash.com/photo-1562606847-fbb751995f1b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDkxfHxyZXN0YXVyYW50fGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://images.unsplash.com/photo-1457460866886-40ef8d4b42a0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudCUyMGZvb2R8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    
+    <!--DELIVERY SECTION-->
+    <section class="delivery">
+      <div class="mycontainer h-100 bg-white">
+        <div class="card mb-3 border-0">
+          <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-0">
+            <div class="col delivery-img-div h-100">
+              <img src="https://live.staticflickr.com/65535/50204245761_bcf21905b4_b.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="col">
+              <div class="card-body">
+                <p class="card-text text-danger handwriting fs-3 m-0">Delivery</p>
+                <h2 class="card-title fw-bold mb-4">A Moments Of Delivered <span class="text-danger">On Right Time & Place</span></h2>
+                <p class="card-text pb-3">Foos Khan is a restaurant, bar and coffee roastery located on a busy corner site in Farrringdon's Exmouth Market. With glazed frontage on two sides of the building. overlooking the market and a busting London inteon.</p>
+                <div class="d-flex flex-wrap align-items-center my-3">
+                  <img src="https://img.icons8.com/color/48/000000/food-truck.png"/>
+                  <span class="mx-2">
+                    <small>Delivery Order Num.</small>
+                    <p class="m-0 text-warning">123-5890-7560</p>
+                  </span>
+                  <button type="button" class="btn btn-danger px-4">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--SECOND CAROUSEL-->
+    <div class="mycontainer">
+      <section class="pt-5">
+        <div class="text-center w-100 pt-5">
+          <p class="text-danger handwriting fs-3 m-0">Delivery</p>
+          <h2 class="fw-bold mb-4">A Moments Of Delivered <span class="text-danger">On Right Time & Place</span></h2>
+        </div>
+      </section>
+      <div id="carouselSecond" class="carousel carousel-dark slide pt-5 pb-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselSecond" data-bs-slide-to="0" class="carousel-btn rounded-circle active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselSecond" data-bs-slide-to="1" class="carousel-btn rounded-circle" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselSecond" data-bs-slide-to="2" class="carousel-btn rounded-circle" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner p-3">
+          <div class="carousel-item active" data-bs-interval="10000">
+              <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 g-4 carousel-cards">
+                <div class="col">
+                  <div class="card h-100 border-0 rounded">
+                    <img src="https://images.unsplash.com/photo-1505633354244-94a091822e67?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTUzfHxidXJnZXJ8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top rounded-3" alt="...">
+                    <div class="card-body d-flex justify-content-between pb-0">
+                      <p><small><i class="fas fa-tags"></i> Chicken Burger</small></p>
+                      <p><small><i class="fas fa-user-circle"></i> Milone Hridoy</small></p>
+                    </div>
+                    <div class="card-body pt-0 rounded-bottom">
+                      <h5 class="card-title">Game day Burger with Homemade</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border-0 rounded">
+                    <img src="https://images.unsplash.com/photo-1602104980741-b87a33837f9f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTMwfHxwaXp6YXxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top rounded-3" alt="...">
+                    <div class="card-body d-flex justify-content-between pb-0">
+                      <p><small><i class="fas fa-tags"></i> Chicken Burger</small></p>
+                      <p><small><i class="fas fa-user-circle"></i> Milone Hridoy</small></p>
+                    </div>
+                    <div class="card-body pt-0 rounded-bottom h-25">
+                      <h5 class="card-title">Delicious pizza with on a wooden mozzarella</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border-0 rounded">
+                    <img src="https://images.unsplash.com/41/EOZpjI3oSqKPNnF2S4Tp_Untitled.jpg?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fHB1YnxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top rounded-3" alt="...">
+                    <div class="card-body d-flex justify-content-between pb-0">
+                      <p><small><i class="fas fa-tags"></i> Chicken Burger</small></p>
+                      <p><small><i class="fas fa-user-circle"></i> Milone Hridoy</small></p>
+                    </div>
+                    <div class="card-body pt-0 rounded-bottom">
+                      <h5 class="card-title">Game day Burger with Homemade</h5>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 g-4 carousel-cards">
+              <div class="col">
+                <div class="card h-100 border-0 rounded">
+                  <img src="https://images.unsplash.com/photo-1575037614876-c38a4d44f5b8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cHVifGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top rounded-3" alt="...">
+                  <div class="card-body d-flex justify-content-between pb-0">
+                    <p><small><i class="fas fa-tags"></i> Chicken Burger</small></p>
+                    <p><small><i class="fas fa-user-circle"></i> Milone Hridoy</small></p>
+                  </div>
+                  <div class="card-body pt-0 rounded-bottom">
+                    <h5 class="card-title">Drinks Days With Friends</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 border-0 rounded">
+                  <img src="https://images.unsplash.com/photo-1606968380547-3eb75ed5fe44?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTQwfHxwdWJ8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top rounded-3" alt="...">
+                  <div class="card-body d-flex justify-content-between pb-0">
+                    <p><small><i class="fas fa-tags"></i> Chicken Burger</small></p>
+                    <p><small><i class="fas fa-user-circle"></i> Milone Hridoy</small></p>
+                  </div>
+                  <div class="card-body pt-0 rounded-bottom">
+                    <h5 class="card-title">Burger With Fries Homemade and Specials</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 border-0 rounded">
+                  <img src="https://images.unsplash.com/photo-1485686531765-ba63b07845a7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHVifGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top rounded-3" alt="...">
+                  <div class="card-body d-flex justify-content-between pb-0">
+                    <p><small><i class="fas fa-tags"></i> Chicken Burger</small></p>
+                    <p><small><i class="fas fa-user-circle"></i> Milone Hridoy</small></p>
+                  </div>
+                  <div class="card-body pt-0 rounded-bottom">
+                    <h5 class="card-title">Special Disocunt Daies With Gifts</h5>
+                  </div>
+                </div>
+              </div>
+          </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 g-4 carousel-cards">
+              <div class="col">
+                <div class="card h-100 border-0 rounded">
+                  <img src="https://images.unsplash.com/photo-1530014671970-707f86eb10f5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fHB1YnxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top rounded-3" alt="...">
+                  <div class="card-body d-flex justify-content-between pb-0">
+                    <p><small><i class="fas fa-tags"></i> Chicken Burger</small></p>
+                    <p><small><i class="fas fa-user-circle"></i> Milone Hridoy</small></p>
+                  </div>
+                  <div class="card-body pt-0 rounded-bottom">
+                    <h5 class="card-title">Day With Burger & Mozzarella Homemade</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 border-0 rounded">
+                  <img src="https://images.unsplash.com/photo-1585945885188-c667411e0f0a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzY5fHxwdWJ8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top rounded-3" alt="...">
+                  <div class="card-body d-flex justify-content-between pb-0">
+                    <p><small><i class="fas fa-tags"></i> Chicken Burger</small></p>
+                    <p><small><i class="fas fa-user-circle"></i> Milone Hridoy</small></p>
+                  </div>
+                  <div class="card-body pt-0 rounded-bottom">
+                    <h5 class="card-title">Game Day & Pizza Parties</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 border-0 rounded">
+                  <img src="https://images.unsplash.com/photo-1555196301-9acc011dfde4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDE0fHxwdWJ8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top rounded-3" alt="...">
+                  <div class="card-body d-flex justify-content-between pb-0">
+                    <p><small><i class="fas fa-tags"></i> Chicken Burger</small></p>
+                    <p><small><i class="fas fa-user-circle"></i> Milone Hridoy</small></p>
+                  </div>
+                  <div class="card-body pt-0 rounded-bottom">
+                    <h5 class="card-title">Burger Day Fun In Khan Food</h5>
+                  </div>
+                </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!--FOOTER-->
+    <footer>
+      <div class="mycontainer">
+        <div class="d-flex justify-content-between align-items-center footer-top-nav text-white my-4 py-4">
+          <div class="d-flex footer-logo-div">
+            <img src="/images/foodlogo.png" alt="" class="w-100 h-100">
+          </div>
+          <div class="text-center">
+            <h5 class="fw-bold">Feel Hunger! Order Your <span class="text-warning">Favorite Food.</span></h5>
+          </div>
+          <button type="button" class="btn btn-danger px-4 border-0">Order Now</button>
+        </div>
+        <div class="">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+            <div class="col">
+              <div class="card h-100 border-0 bg-transparent text-white">
+                <ul>
+                  <li class="fw-bold pb-2">About Us</li>
+                  <li><a href="#">Abous Us</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <a href="#" class="d-block py-2 text-decoration-none text-warning">View Google Map</a>
+                </ul>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-0 bg-transparent text-white">
+                <ul>
+                  <li class="fw-bold pb-2">Address</li>
+                  <li><a href="#">4433 Heavner Court</a></li>
+                  <li><a href="#">Plainview, New York</a></li>
+                  <a href="#" class="d-block py-2 text-decoration-none text-warning">Make a Call</a>
+                </ul>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-0 bg-transparent text-white">
+                <ul>
+                  <li class="fw-bold pb-2">Contact Us</li>
+                  <li><a href="#">Email: site@agency.com</a></li>
+                  <li><a href="#">Cel: +5 6-2562-5684</a></li>
+                  <a href="#" class="d-block py-2 text-decoration-none text-warning">Book Now</a>
+                </ul>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-0 bg-transparent text-white">
+                <ul>
+                  <li class="fw-bold pb-2">NEWSLETTER</li>
+                  <div class="input-group my-1">
+                    <input type="text" class="form-control bg-transparent text-white subscribe" placeholder="Enter email now" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-danger" type="button" id="button-addon2"><i class="fas fa-paper-plane"></i></button>
+                  </div>
+                  <a href="#" class="d-block py-2 text-decoration-none text-warning">Subscribe Now</a>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center py-4 bg-transparent text-white">Copyright@Parag 2016, All Rights Reserved</div>
+      </div>
+    </footer>
+    
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="fslightbox-basic-3.3.0/fslightbox.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+</body>
+</html>

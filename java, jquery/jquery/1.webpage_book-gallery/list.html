@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="lightbox.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top mb-5">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container ps-5 pe-5 mt-5 pt-4">
+    <button type="button" class="btn btn-light text-secondary bg-transparent border-0 grid active"><i class="fas fa-th pe-2"></i> Grid</button>
+    <button type="button" class="btn btn-light text-secondary bg-transparent border-0 list"><i class="fas fa-th-list pe-2"></i> List</button>
+  </div>
+  <div class="container p-5 pt-3 mb-5">
+    <div class="row g-3 main-row">
+      <div class="col col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+          <div class="row second-row">
+            <div class="card-head">
+              <a href="https://images.unsplash.com/photo-1593340010859-83edd3d6d13f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1510&q=80" data-fslightbox="gallery">
+                <img src="https://images.unsplash.com/photo-1593340010859-83edd3d6d13f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80" class="card-img-top img-thumbnail border-0" alt="...">
+              </a>
+              </div>
+              <div class="card-body">
+                <h6 class="card-title">This is the title</h6>
+                <p class="card-text fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolor quis amet dicta earum animi voluptatum incidunt dolorem sunt inventore!</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+            <div class="row second-row">
+              <div class="card-head lightbox-image">
+                <a href="https://images.unsplash.com/photo-1612969308146-066d55f37ccb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" data-fslightbox="gallery">
+                  <img src="https://images.unsplash.com/photo-1612969308146-066d55f37ccb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="card-img-top img-thumbnail border-0" alt="...">
+                </a>
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title">This is the title</h6>
+                  <p class="card-text fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolor quis amet dicta earum animi voluptatum incidunt dolorem sunt inventore!</p>
+                </div>
+            </div>
+          </div>
+      </div>
+      <div class="col col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+            <div class="row second-row">
+              <div class="card-head lightbox-image">
+                <a href="https://images.unsplash.com/photo-1528938102132-4a9276b8e320?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" data-fslightbox="gallery">
+                  <img src="https://images.unsplash.com/photo-1528938102132-4a9276b8e320?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="card-img-top img-thumbnail border-0" alt="...">
+                </a>
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title">This is the title</h6>
+                  <p class="card-text fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolor quis amet dicta earum animi voluptatum incidunt dolorem sunt inventore!</p>
+                </div>
+            </div>
+          </div>
+      </div>
+      <div class="col col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+            <div class="row second-row">
+              <div class="card-head lightbox-image">
+                <a href="https://images.unsplash.com/photo-1519682337058-a94d519337bc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" data-fslightbox="gallery">
+                  <img src="https://images.unsplash.com/photo-1519682337058-a94d519337bc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="card-img-top img-thumbnail border-0" alt="...">
+                </a>  
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title">This is the title</h6>
+                  <p class="card-text fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolor quis amet dicta earum animi voluptatum incidunt dolorem sunt inventore!</p>
+                </div>
+            </div>
+          </div>
+      </div>
+      <div class="col col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+            <div class="row second-row">
+              <div class="card-head lightbox-image">
+                <a href="https://images.unsplash.com/photo-1598618443984-28f67f043866?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" data-fslightbox="gallery">
+                  <img src="https://images.unsplash.com/photo-1598618443984-28f67f043866?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="card-img-top img-thumbnail border-0" alt="...">
+                </a>  
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title">This is the title</h6>
+                  <p class="card-text fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolor quis amet dicta earum animi voluptatum incidunt dolorem sunt inventore!</p>
+                </div>
+            </div>
+          </div>
+      </div>
+      <div class="col col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+            <div class="row second-row">
+              <div class="card-head lightbox-image">
+                <a href="https://images.unsplash.com/photo-1593545517138-301fa4851c24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1406&q=80" data-fslightbox="gallery">
+                  <img src="https://images.unsplash.com/photo-1593545517138-301fa4851c24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=703&q=80" class="card-img-top img-thumbnail border-0" alt="...">
+                </a>
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title">This is the title</h6>
+                  <p class="card-text fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolor quis amet dicta earum animi voluptatum incidunt dolorem sunt inventore!</p>
+                </div>
+            </div>
+          </div>
+      </div>
+      <div class="col col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+            <div class="row second-row">
+              <div class="card-head lightbox-image">
+                <a href="https://images.unsplash.com/photo-1555252586-d77e8c828e41?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1502&q=80" data-fslightbox="gallery">
+                  <img src="https://images.unsplash.com/photo-1555252586-d77e8c828e41?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=751&q=80" class="card-img-top img-thumbnail border-0" alt="...">
+                </a>
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title">This is the title</h6>
+                  <p class="card-text fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolor quis amet dicta earum animi voluptatum incidunt dolorem sunt inventore!</p>
+                </div>
+            </div>
+          </div>
+      </div>
+      <div class="col col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+            <div class="row second-row">
+              <div class="card-head lightbox-image">
+                <a href="https://images.unsplash.com/photo-1504198322253-cfa87a0ff25f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" data-fslightbox="gallery">
+                  <img src="https://images.unsplash.com/photo-1504198322253-cfa87a0ff25f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="card-img-top img-thumbnail border-0" alt="...">
+                </a>
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title">This is the title</h6>
+                  <p class="card-text fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolor quis amet dicta earum animi voluptatum incidunt dolorem sunt inventore!</p>
+                </div>
+            </div>
+          </div>
+      </div>
+      <div class="col col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+            <div class="row second-row">
+              <div class="card-head lightbox-image">
+                <a href="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1386&q=80" data-fslightbox="gallery">
+                  <img src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=786&q=80" class="card-img-top img-thumbnail border-0" alt="...">
+                </a>
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title">This is the title</h6>
+                  <p class="card-text fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolor quis amet dicta earum animi voluptatum incidunt dolorem sunt inventore!</p>
+                </div>
+            </div>
+          </div>
+      </div>
+      <div class="col col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+            <div class="row second-row">
+              <div class="card-head lightbox-image">
+                <a href="https://images.unsplash.com/photo-1514593214839-ce1849100055?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1567&q=80" data-fslightbox="gallery">
+                  <img src="https://images.unsplash.com/photo-1514593214839-ce1849100055?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=667&q=80" class="card-img-top img-thumbnail border-0" alt="...">
+                </a>
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title">This is the title</h6>
+                  <p class="card-text fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolor quis amet dicta earum animi voluptatum incidunt dolorem sunt inventore!</p>
+                </div>
+            </div>
+          </div>
+      </div>
+      <div class="col col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+            <div class="row second-row">
+              <div class="card-head lightbox-image">
+                  <a href="https://images.unsplash.com/photo-1598618356474-79b3ac98e850?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1502&q=80" data-fslightbox="gallery">
+                    <img src="https://images.unsplash.com/photo-1598618356474-79b3ac98e850?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1502&q=80" class="card-img-top img-thumbnail border-0" alt="...">
+                  </a>
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title">This is the title</h6>
+                  <p class="card-text fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolor quis amet dicta earum animi voluptatum incidunt dolorem sunt inventore!</p>
+                </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
